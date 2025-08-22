@@ -1,4 +1,13 @@
-let pi: number = 3.14159;
-console.log('Hello!');
-console.log('Goodbye!');
-console.log(Math.round(7.32846888888));
+let userName: string;
+let userAge: number;
+
+userName = "Robin";
+// userAge = 51;
+
+function add(a: number, b = 5) {
+  return a + b;
+}  
+
+add(62);
+//add('10');
+//add(10, '6');
